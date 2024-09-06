@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: tan;
+}
+
+.container {
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.landing-bg {
+    background-image: url("/woods.jpeg");
+    padding: 1rem;
+}
+
+.navbar {
+    /* display: flex; */
+    padding: 1rem;
+    background-color: orangered;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.landing-copy {
+    background-color: rgb(255, 255, 0, .7);
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px red;
+}
+
+.sm-img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#profile-pic {
+    max-width: 100%;
+    max-height: 100%;
+    border: red 1px solid;
+    border-radius: 100%;
+
+
+/* END INDEX */
+
+/* BIO */
