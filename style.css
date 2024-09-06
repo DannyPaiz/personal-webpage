@@ -50,7 +50,34 @@ body {
     border: red 1px solid;
     border-radius: 100%;
 
-
+}
 /* END INDEX */
 
 /* BIO */
+.copy-bio {
+    padding: 1rem;
+    background-color: thistle;
+    display: flex;
+    gap: 10px;
+}
+
+.copy-pers {
+    padding: 1rem;
+    background-color: peru;
+}
+
+#copy-intro {
+    margin-top: 5px;
+    color: white;
+}
+
+.copy-list {
+    display: flex;
+    gap: 10px;
+}
+
+.list-items {
+    list-style: none;
+    background-color: cornsilk;
+    padding: 1rem;
+}
